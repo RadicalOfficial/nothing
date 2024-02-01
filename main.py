@@ -36,9 +36,8 @@ def get_count():
   return text
 
 # Used to JS :P
+print("We are waiting to prevent rate-limits......")
 time.sleep(10)
 counter = get_count()
-gap = 2000-int(counter)
-print(gap)
+print("Setting")
 conn.set_var("count", counter)
-conn.set_var("gap", gap)
