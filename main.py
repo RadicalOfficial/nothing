@@ -2,7 +2,7 @@ import scratchattach as scratch3
 import requests
 import os
 import time
-from flask import Flask
+from flask import Flask, jsonify
 from threading import Thread
 
 app = Flask('')
