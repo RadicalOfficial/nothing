@@ -21,7 +21,7 @@ def get_count():
   return text
 
 # Used to JS :P
-time.sleep(60)
+time.sleep(10)
 counter = get_count()
 gap = 2000-int(counter)
 print(gap)
